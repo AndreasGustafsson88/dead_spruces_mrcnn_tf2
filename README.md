@@ -1,10 +1,10 @@
-# Mask R-CNN for identifying standing dead pines
+# Mask R-CNN for identifying standing dead spruces
 
 #### This is an implementation of mask R-CNN on python 3, keras and tensorflow 2.
 
 This work is based on previous implementation done by [Matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
 
-#### Example result with visualized as semantic segmentation
+#### Example result visualized with semantic segmentation
 ![](data/example_images/001.png)
 left: original, right: Green hand annotated, Red predicted
 
@@ -64,8 +64,8 @@ predict.py
 ```
 
 See notebooks for more examples.
-* [Training notebook](/Azure_MaskRCNN_tf2.ipynb)
-* [Inference notebook](/review_model.ipynb)
+* [Training notebook](/Mask_RCNN_Training.ipynb)
+* [Inference notebook](/Mask_RCNN_Inference.ipynb)
 
 ### Dataset
 
